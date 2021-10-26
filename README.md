@@ -4,8 +4,13 @@ Repositório criado com o objetivo de compartilhar alguns dos projetos que desen
 ## HTML, CSS:
   - [Página de captura](https://github.com/kevenalves/projetos-de-estudo/tree/main/Pagina-Captura)
 
-## HTML, CSS JS:
-  - [AluraKut](https://github.com/kevenalves/projetos-de-estudo/tree/main/AluraKut)
+## HTML, CSS, JS:
   - [DolarHoje](https://github.com/kevenalves/projetos-de-estudo/tree/main/DolarHoje)
-  - [Formulário CEP](https://github.com/kevenalves/projetos-de-estudo/tree/main/Form-CEP)
   - [Jogo da memória](https://github.com/kevenalves/projetos-de-estudo/tree/main/JogoDaMemoria)
+
+## Bootstrap:
+  - [Formulário CEP](https://github.com/kevenalves/projetos-de-estudo/tree/main/Form-CEP)
+
+
+## React JS:
+  - [AluraKut](https://github.com/kevenalves/projetos-de-estudo/tree/main/AluraKut)
