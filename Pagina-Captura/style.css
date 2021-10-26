@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body{
+    background-color: #2E2E36;
+}
+
+header{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#title{
+    text-align: center;
+    padding: 30px;
+}
+
+#title h1{
+    font-size: 82px;
+    color: #FFFFFE;
+    font-family: 'Nunito', sans-serif;
+}
+
+#content{
+    text-align: center;
+}
+
+#ebook{
+    display: inline-block;
+    margin-left: -380px;
+}
+
+form{
+    display: inline-block;
+    position: absolute;
+    margin-top: 150px;
+}
+
+form div p{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFE;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+form div input{
+    border: solid 1px #bbbbbb;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 34px;
+    width: 286px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+select{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 34px;
+    width: 286px;
+    font-size: 15px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+#button{
+    display: block;
+    border-radius: 5px;
+    border: none;
+    width: 286px;
+    height: 41px;
+    position: absolute;
+    background-color: #00C099;
+    color: #FFFFFE;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: #0dac8c;
+    transition: 200ms;
+}
+
+#text{
+    margin-bottom: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+#text p {
+    color: #FFFFFE;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    max-width: 800px;
+}
+
+@media screen and (max-width: 800px) {
+    
+  #ebook{
+      display: block;
+      margin: auto;
+  }
+
+  form{
+    position: relative;
+    margin: auto;
+  }
+
+  form div p{
+   margin-bottom: 8px;
+  }
+
+  #button{
+      position: relative;
+      margin-bottom: 60px;
+  }
+
+  #text p{
+     max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+    #title h1{
+        font-size: 42px;
+    }
+
+    #ebook img{
+        width: 295px;
+        height: 398px;
+    }
+
+    #text p {
+        font-size: 20px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    header img{
+        width: 113px;
+        height: 27px;
+    }
+
+    #title h1{
+        font-size: 36px;
+    }
+
+    #ebook img{
+        width: 195px;
+        height: 298px;
+    }
+
+    form div input{
+        width: 220px;
+    }
+
+    select{
+        width: 220px;
+    }
+
+    #button{
+        width: 220px;
+    }
+
+    #text p {
+        font-size: 16px;
+        max-width: 250px;
+    }
+}
