@@ -8,7 +8,7 @@ Repositório criado com o objetivo de compartilhar alguns dos projetos que desen
 ## HTML, CSS, JS:
   - [DolarHoje](https://github.com/kevenalves/projetos-de-estudo/tree/main/DolarHoje)
   - [Jogo da memória](https://github.com/kevenalves/projetos-de-estudo/tree/main/JogoDaMemoria)
-   - [Paginação JS]()
+   - [Paginação JS](https://github.com/kevenalves/projetos-de-estudo/tree/main/paginacao-JavaScript)
 
 ## Bootstrap:
   - [Formulário CEP](https://github.com/kevenalves/projetos-de-estudo/tree/main/Form-CEP)
