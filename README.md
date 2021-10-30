@@ -13,6 +13,7 @@ Repositório criado com o objetivo de compartilhar alguns dos projetos que desen
 
 ## Bootstrap:
   - [Formulário CEP](https://github.com/kevenalves/projetos-de-estudo/tree/main/Form-CEP)
+  - [Landing-Page Simples](https://github.com/kevenalves/projetos-de-estudo/tree/main/Pagina-Bootstrap)
 
 
 ## React JS:
