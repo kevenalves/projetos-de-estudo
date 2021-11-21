@@ -3,8 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Gere senhas super forte em poucos cliques!">
+        <meta name="keywords" content="senha, password, strong password, senha forte, gerador de senha">
         <title>Super Senha</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap">
         <script src="app.js" defer></script>
     </head>
     <body>
@@ -18,10 +21,10 @@
                 </div>
             </div>
             <div class="pw-body">
-                <div class="form-control">
-                    <label for="len">Tamanho da senha</label>
-                    <input id="len" value="15" type="range" min="4" max="30" onmousemove="updateTextInput(this.value);" />
-                    <input id="textInput" type="number" readonly value="15" style="width: 45px; border-radius: 5px;">
+                <div class="form-control">           
+                    <label for="len">Tamanho da senha</label>              
+                    <input id="len" value="15" type="range" min="4" max="30" onmousemove="updateTextInput(this.value);" ontouchmove="updateTextInput(this.value);" onchange="updateTextInput(this.value);" />
+                    <input aria-label="valor do tamanho da senha" id="textInput" type="number" readonly value="15" style="width: 45px; border-radius: 5px;">
                 </div>
                 <div class="form-control">
                     <label for="upper">Letras maiúsculas</label>

@@ -1,0 +1,14 @@
+$colorBackground: #0B0E14;
+$colorBorder: #171E2B;
+$userColor: #0E1F2B;
+$colorText: #eee;
+
+@mixin font {
+    font-family: "Poppins", sans-serif;
+}
+
+@mixin centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
