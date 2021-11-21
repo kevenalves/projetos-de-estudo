@@ -99,9 +99,9 @@ copyEl.addEventListener("click", () => {
     createNotification();
 });
 
-function updateTextInput() {
-    const val = lenEl.value
-    document.getElementById('textInput').value=val; 
+
+function updateTextInput(val) {
+    document.getElementById('textInput').value=val;
   }
 
 
