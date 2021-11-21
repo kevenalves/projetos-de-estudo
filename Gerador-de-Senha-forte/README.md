@@ -11,9 +11,9 @@ Veja o projeto [Super Senha](https://supersenha.netlify.app/) de forma interativ
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
  <br/>
 
-</br></br>
+</br>
 
-## 🖥️ Preview do site oficial Night Lingo
+## 🖥️ Preview final do projeto desktop
 
 <p align="center">
   <img src="img\desktop.png" width="1012" height="511"/>
@@ -21,7 +21,7 @@ Veja o projeto [Super Senha](https://supersenha.netlify.app/) de forma interativ
 
 </br></br>
 
-## 📳 Preview final do site mobile
+## 📳 Preview final do projeto mobile
 
 <p align="center">
   <img src="img\mobile.png" width="375" height="667"/>
