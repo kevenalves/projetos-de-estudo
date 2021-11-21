@@ -1,0 +1,116 @@
+:root{
+    --colorBackground: #0B0E14;
+    --colorBorder: #171E2B;
+    --userColor: #0E1F2B;
+    --colorText: #eee;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--colorBackground);
+    color: var(--colorText);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.pw-container {
+    background-color: var(--colorBorder);
+    box-shadow: 0 4px 10px rgba(17, 17, 17, 0.2);
+    min-width: 400px;
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background-color: var(--colorBackground);
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.pw button {
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.pw-body {
+    padding: 0 1rem 1rem;
+}
+
+.form-control {
+    color: var(--colorText);
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate {
+    background-color: var(--colorText);
+    border: 2px solid transparent;
+    color: var(--colorBorder);
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    box-shadow: 0px 0px 15px -1px #000000;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.generate:hover{
+    background-color: transparent;
+    color: var(--colorText);
+    border: 2px solid var(--colorText);
+}
+
+
+#toast {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast {
+    background-color: var(--colorBorder);
+    border-radius: 5px;
+    color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 15px -1px #000000;
+}
