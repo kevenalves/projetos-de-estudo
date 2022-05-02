@@ -1,6 +1,6 @@
 # Calculadora JavaScript
 
-[Calculadora](image/calculadora.jpeg)
+![Calculadora](image/calculadora.jpeg)
 
 # Descrição
 Calculadora desenvolvida utilizando estrutura de projeto MVC e orientação a objeto.
